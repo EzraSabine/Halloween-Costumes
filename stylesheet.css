@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+}
+
+header  {
+    display: flex;
+    flex-direction: row;
+    background-color: orange;
+    width: 100vw;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 12px;
+}
+
+.pumpkin {
+    
+}
+
