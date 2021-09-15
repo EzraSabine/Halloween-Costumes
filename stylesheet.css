@@ -1,5 +1,5 @@
 body, html {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -43,13 +43,26 @@ header > h1 {
     font-size: 20px;
 }
 
+.links > li:hover {
+    outline: 1px solid black;
+}
+
 .big-pumpkin {
     display: block;
     margin: 150px auto auto auto;
     width: 350px;
     border-radius: 200px;
+    
+    
 }
 
 .big-pumpkin:hover {
-    background-color: yellow;
+    transition: 0.5s;
+    color: yellow;
+    background: yellow;
+    box-shadow: 0 0 120px yellow;
+                0 0 220px yellow;
+                0 0 320px yellow;
+                0 0 420px yellow;
+
 }
