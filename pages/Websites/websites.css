@@ -51,21 +51,33 @@ header > h1:hover {
     outline: 2px solid black;
 }
 
-.big-pumpkin {
-    display: block;
-    margin: 150px auto auto auto;
-    width: 350px;
-    border-radius: 200px;
-    
-    
+.link-box-container {
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    border: 6px solid orange;
+    margin: auto;
+    width: 800px;
+    height: 500px;
+    margin-top: 100px;
 }
 
-.big-pumpkin:hover {
-    transition: 0.5s;
-    color: yellow;
-    background: yellow;
-    box-shadow: 0 0 120px yellow;
-                0 0 220px yellow;
-                0 0 320px yellow;
-                0 0 420px yellow;
+.link-boxes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 60px;
 }
+
+#amazon {
+    width: 200px;    
+    height: auto;
+    margin-top: 50px;
+}
+
+#cossky {
+    width: 250px;
+    height: auto;
+}
+
+
