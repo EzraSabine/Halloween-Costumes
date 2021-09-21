@@ -75,14 +75,27 @@ header > h1:hover {
     margin-top: 50px;
 }
 
+#amazon:hover {
+    transform: rotate(10deg)
+}
+
 #cossky {
     width: 250px;
     height: auto;
 }
 
+#cossky:hover {
+    transform: rotate(-10deg)
+}
+
 #spirit {
     width: 200px;
     height: auto;
+    border-radius: 200px;
+}
+
+#spirit:hover {
+    transform: rotate(-10deg)
 }
 
 
