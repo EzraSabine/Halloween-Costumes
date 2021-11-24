@@ -98,4 +98,38 @@ header > h1:hover {
     transform: rotate(-10deg)
 }
 
+@media only screen and (max-width: 500px) {
 
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    header > h1 {
+        margin: 20px auto;
+        text-align: center;
+        width: 80%;
+        outline: 4px solid black;
+    }
+
+    .link-box-container {
+        margin: auto;
+        width: 80%;
+        height: 420px;
+        margin-top: 30px;
+    }
+    
+    .link-boxes {
+        display: flex;
+        flex-direction: column;
+        align-items: space-evenly;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    #cossky {
+        margin-right: 15px;
+    }
+}
