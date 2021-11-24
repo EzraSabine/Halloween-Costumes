@@ -95,3 +95,41 @@ input {
     background-color: orange;
     padding: 8px;
 }
+
+@media only screen and (max-width: 500px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    header > h1 {
+        margin: 20px auto;
+        border: 4px solid black;
+        text-align: center;
+        width: 80%;
+    }
+
+    .survey-box {
+        width: 85%; 
+        margin: 20px auto;
+    }
+
+    #submit {
+        padding: 8px;
+
+    }
+
+    label {
+        margin-left: 18%;
+    }
+
+    .vote-title {
+        margin: 50px auto;
+        width: 80%;
+        font-size: 20px;
+        
+    }
+
+}
