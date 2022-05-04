@@ -9,7 +9,7 @@ html, body {
 ul, a {
     text-decoration: none;
     list-style: none;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 header {
@@ -27,9 +27,11 @@ header > h1 {
     outline: 4px solid black;
 }
 
+
 header > h1:hover {
     outline: 8px solid rgb(0, 0, 0);
 }
+
 
 .links {
     display: flex;
